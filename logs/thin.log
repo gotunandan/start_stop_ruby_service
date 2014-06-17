@@ -1,0 +1,14 @@
+== Sinatra/1.4.5 has taken the stage on 9292 for development with backup from Thin
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 0.0.0.0:9292, CTRL+C to stop
+name opera** version 12** url fabsh.com** proxy ** port **
+command is C:\Program Files\Opera\opera.exe
+Proxy has been unset
+PID is #<struct Struct::ProcessInfo process_handle=592, thread_handle=616, process_id=3888, thread_id=2868>
+127.0.0.1 - - [13/Jun/2014 14:42:38] "GET /start?name=opera&version=12&url=fabsh.com HTTP/1.1" 200 - 0.0321
+name firefox** version 22** url lwn.net** proxy ** port **
+command is C:\Program Files\Mozilla Firefox\firefox.exe
+Proxy has been unset
+PID is #<struct Struct::ProcessInfo process_handle=368, thread_handle=408, process_id=3848, thread_id=3624>
+127.0.0.1 - - [13/Jun/2014 14:52:29] "GET /start?name=firefox&version=22&url=lwn.net HTTP/1.1" 200 - 0.0431
