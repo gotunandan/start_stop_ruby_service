@@ -1,0 +1,19 @@
+
+opera: "C:\\Program Files\\Opera\\opera.exe"
+
+opera_new: "C:\\Program Files\\Opera\\22.0.1471.50\\opera.exe"
+
+ie: "C:\\Program Files\\Internet Explorer\\iexplore.exe"
+
+firefox: "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+
+chrome: "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+
+tasklist: "C:\\Windows\\System32\\tasklist.exe"
+
+taskkill: "C:\\Windows\\System32\\taskkill.exe"
+
+proxy: "proxy.bat"
+
+clean: "clean.bat"
+
