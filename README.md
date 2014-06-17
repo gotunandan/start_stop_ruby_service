@@ -2,7 +2,7 @@ start_stop_ruby_service
 =======================
 
 The start_init.bat file should be copied to the "Startup" directory in Windows. 
-On Windows the path is "C:\Users\nandan\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+On Windows the path is "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 
 The Server starts on localhost listening on port 4567 when the user logs in. 
 
