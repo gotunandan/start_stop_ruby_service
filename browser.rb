@@ -8,6 +8,8 @@ class Browser
 
     @paths = YAML.load_file("paths.yml")
 
+    @is64 = File.directory?(@paths["wow64"])
+
     @stop_hash = {
       "opera" => "opera.exe",
       "ie" => "iexplore.exe",
@@ -43,6 +45,10 @@ class Browser
 
     if name == 'opera' && version >= '15'
       name = 'opera_new'
+    end
+
+    if @is64 == true
+      name += '64'
     end
 
     command = "#{@paths[name]}"
